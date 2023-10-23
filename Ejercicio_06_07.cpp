@@ -16,7 +16,7 @@ int main(){
     cout << "En un año habran en total " <<pcjs(12)<<" parejas de conejos"<<endl;
     return 0;
 }
-int pcjs(int m){
+int pcjs(int m){//funcion recursiva para halla la cantidad de parejas de conejos en un año
     if (m<=2) {
         return 1;
     } else {
